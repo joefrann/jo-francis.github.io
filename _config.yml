@@ -5,7 +5,7 @@ description: "Electrical Engineering Student at KMITL"
 url: "https://jo-francis.github.io" # ใส่ URL ของคุณ
 baseurl: "" 
 github_username: joefrann
-minimal_mistakes_skin: default # ลองเปลี่ยนเป็น air, aqua, contrast, dark, dirt, neon ได้
+minimal_mistakes_skin: air # ลองเปลี่ยนเป็น air, aqua, contrast, dark, dirt, neon ได้
 search: true
 
 # Build settings
