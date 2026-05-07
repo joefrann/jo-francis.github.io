@@ -1,11 +1,10 @@
-# Site settings
 title: "Joe Francis | Portfolio"
 email: francisjoe238@gmail.com
 description: "Electrical Engineering Student at KMITL"
-url: "https://joe-francis.github.io" # ใส่ URL ของคุณ
-baseurl: "" 
+url: "https://jo-francis.github.io"
+baseurl: ""
 github_username: joefrann
-minimal_mistakes_skin: dark # ลองเปลี่ยนเป็น air, aqua, contrast, dark, dirt, neon ได้
+minimal_mistakes_skin: dark
 search: true
 
 # Build settings
@@ -23,10 +22,10 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-# Author Settings (ส่วนที่จะโชว์ด้านซ้ายของเว็บ)
+# Author Settings
 author:
   name    : "Joe Francis"
-  avatar  : "/assets/images/bio-photo.jpg" # เอารูปไปวางในโฟลเดอร์นี้แล้วเปลี่ยนชื่อให้ตรงกัน
+  avatar  : "/assets/images/bio-photo.jpg"
   bio     : "Electrical Engineering Student at KMITL | Freelance Instructor"
   location: "Bangkok, Thailand"
   links:
@@ -35,7 +34,7 @@ author:
       url: "https://github.com/joefrann"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/" # ใส่ลิงก์ IG ของคุณ
+      url: "https://instagram.com/"
 
 footer:
   links:
@@ -56,3 +55,4 @@ defaults:
     values:
       layout: single
       author_profile: true
+      
