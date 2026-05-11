@@ -1,6 +1,6 @@
 title: "Joe Francis | Portfolio"
 email: francisjoe238@gmail.com
-description: "Electrical Engineering Student at KMITL"
+description: "Electrical Engineering Student at KMITL | Aspiring Aerospace & Avionics Engineer | Freelance Academic Instructor"
 url: "https://jo-francis.github.io"
 baseurl: ""
 github_username: joefrann
@@ -22,26 +22,42 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# Markdown Support & Math
+kramdown:
+  math_engine: mathjax
+mathjax: true
+
 # Author Settings
 author:
   name    : "Joe Francis"
   avatar  : "/assets/images/bio-photo.jpg"
-  bio     : "Electrical Engineering Student at KMITL | Freelance Instructor"
+  bio     : "Electrical Engineering Student at KMITL ⚙️ | Aspiring Aerospace & Avionics Engineer 🚀 | Academic Instructor 📚"
   location: "Bangkok, Thailand"
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:francisjoe238@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/joefrann"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/" # ใส่ลิงก์ LinkedIn ของคุณที่นี่
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
 
+# Footer Settings
 footer:
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:francisjoe238@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/joefrann"
 
+# Front Matter Defaults
 defaults:
   - scope:
       path: ""
@@ -49,10 +65,12 @@ defaults:
     values:
       layout: single
       author_profile: true
+      read_time: true
+      share: true
+      show_date: true
   - scope:
       path: "_pages"
       type: pages
     values:
       layout: single
       author_profile: true
-      
